@@ -11,7 +11,7 @@ function App() {
     <div>
       <p>App count : {count}</p>
       <Header count = {count} setCount = {setCount}></Header>
-      <Home></Home>
+      <Home count={count}></Home>
       <Shipment></Shipment>
     </div>
   );
