@@ -1,11 +1,12 @@
 import React from 'react';
 import CategoryDetail from '../CategoryDetail/CategoryDetail';
 
-const Categories = () => {
+const Categories = (props) => {
+    const {count} = props;
     return (
         <div>
             <h1>Select your category</h1>
-            <CategoryDetail></CategoryDetail>
+            <CategoryDetail count={count}></CategoryDetail>
         </div>
     );
 };

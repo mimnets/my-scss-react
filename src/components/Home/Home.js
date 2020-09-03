@@ -6,7 +6,7 @@ const Home = (props) => {
     return (
         <div style={{border: '1px solid gray'}}>
             <h1>This is  home : {count}</h1>
-            <Categories></Categories>
+            <Categories count = {count}></Categories>
         </div>
     );
 };
