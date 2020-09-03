@@ -5,7 +5,7 @@ import Home from './components/Home/Home';
 import Header from './components/Header/Header';
 import Shipment from './components/Shipment/Shipment';
 
-const CategoryContext = createContext();
+export const CategoryContext = createContext();
 
 function App() {
   const [count, setCount] = useState(0)
